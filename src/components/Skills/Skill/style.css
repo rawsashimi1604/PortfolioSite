@@ -1,3 +1,23 @@
-.skill {
-    color: var(--color-50)
+.skill ul {
+    margin-top: 1em;
+    color: var(--color-50);
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    gap: 10px;
 }
+
+.skill ul li {
+    background-color: var(--color-200);
+    color: var(--color-700);
+    font-weight: 700;
+    font-size: 1.15em;
+    padding: 5px 10px;
+    border-radius: 10px;
+
+    box-shadow: 0px 5px 20px -5px var(--color-50);
+}
+

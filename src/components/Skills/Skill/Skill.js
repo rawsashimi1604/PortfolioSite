@@ -11,7 +11,7 @@ export default function Skill(props) {
 
     return (
         <div className="skill">
-            <ul>
+            <ul className="animate__animated animate__fadeInLeft animate__fast">
                 {skillOutputArray}
             </ul>
         </div>

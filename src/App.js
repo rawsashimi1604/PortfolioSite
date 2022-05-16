@@ -5,7 +5,7 @@ import Skills from "./components/Skills/Skills"
 import SidebarLeft from "./components/SidebarLeft/SidebarLeft"
 
 import colors from "./colors/colors.css"
-
+import "animate.css"
 
 
 
