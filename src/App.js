@@ -1,13 +1,15 @@
 import React from "react"
 import Navbar from "./components/Navbar/Navbar"
+import Hero from "./components/Hero/Hero"
 import colors from "./colors/colors.css"
 
 export default function App() {
     return (
-        <main>
-            <div>
-                <Navbar/>
-            </div>
-        </main>
+        <div>
+            <Navbar/>
+            <main>
+                <Hero/>
+            </main>
+        </div>
     )
 }
