@@ -1,9 +1,7 @@
 section.hero {
     color: var(--color-50);
     position: relative;
+
+    padding: 30px 50px;
 }
 
-#hero-video {
-    position: absolute;
-    z-index: -1;
-}

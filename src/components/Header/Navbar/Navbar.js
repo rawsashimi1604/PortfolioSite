@@ -1,6 +1,6 @@
 import React from "react"
 import "./style.css"
-import "../../colors/colors.css"
+import "../../../colors/colors.css"
 
 
 export default function Navbar() {

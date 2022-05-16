@@ -1,0 +1,9 @@
+/* Video background */
+#hero-video {
+    position: absolute;
+    z-index: -1;
+    width: 100% !important;
+    height: auto !important;
+}
+
+
