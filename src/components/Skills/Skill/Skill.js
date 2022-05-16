@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../colors/colors.css"
+import "../../colors/colors.css"
 import "./style.css"
 
 export default function Skill(props) {

@@ -2,8 +2,7 @@ import React from "react";
 import "./style.css"
 import "../../colors/colors.css"
 
-import Skill from "./Skill/Skill";
-import skillData from "./skillData";
+import skillData from "../Skills/skillData";
 
 export default function Hero() {
 
@@ -21,22 +20,7 @@ export default function Hero() {
                 In my free time, you might find me: Jamming along to music, following Leicester City Football Club, scrolling through Reddit, binge eating Japanese food or playing video games with my friends!
             </p>
 
-            <h2>Skills</h2>
-
-            <ul>
-                <li>Languages</li>
-                <li>Frameworks</li>
-                <li>Databases</li>
-                <li>Others</li>
-            </ul>
-
-            <summary>
-                <Skill data={skillData.languages}/>
-                <Skill data={skillData.frameworks}/>
-                <Skill data={skillData.databases}/>
-                <Skill data={skillData.others}/>
-            </summary>
-
+        
         </section>
     )
 }
