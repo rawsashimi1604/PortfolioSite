@@ -7,7 +7,9 @@ export default function Navbar() {
     return (
         <nav>
             <section className="nav-logo hoverable">
-                <span>.gavin</span>
+                <span>
+                    <a href="#">.gavin</a>
+                </span>
             </section>
 
             <section className="nav-menu">
