@@ -17,26 +17,33 @@ nav ul {
 }
 
 nav li {
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-underline-offset: 3px;
+    transition: 1s text-decoration-color;
+}
+
+nav li span {
+    color: var(--color-200);   
 }
 
 nav li:hover {
     cursor: pointer;
-    text-decoration: underline;
+    text-decoration-color: var(--color-50);
+    color: var(--color-50);
     
 }
 
 nav .hoverable {
     border-radius: 10px;
-    color: var(--color-50);
     border-color: var(--color-50);
     
     transition: color 0.5s, border-color 0.5s, background-color 0.5s;
 }
 
 nav .hoverable:hover {
-    color: var(--color-confirm);
-    border-color: var(--color-confirm);
+    color: var(--color-confirm-100);
+    border-color: var(--color-confirm-100);
     background-color: var(--color-600);
 }
 
@@ -55,11 +62,5 @@ nav .nav-resume {
 
     padding: 10px;
     font-weight: 700;
-}
-
-nav .nav-resume:hover {
-    color: var(--color-confirm);
-    border-color: var(--color-confirm);
-    background-color: var(--color-600);
 }
 

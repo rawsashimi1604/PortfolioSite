@@ -12,10 +12,10 @@ export default function Navbar() {
 
             <section className="nav-menu">
                 <ul>
-                    <li>About</li>
-                    <li>Experience</li>
-                    <li>Work</li>
-                    <li>Contact</li>
+                    <li><span>01. </span>About</li>
+                    <li><span>02. </span>Experience</li>
+                    <li><span>03. </span>Work</li>
+                    <li><span>04. </span>Contact</li>
                     <li className="nav-resume hoverable">Resume</li>
                 </ul>
             </section>
