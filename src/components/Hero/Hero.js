@@ -2,12 +2,24 @@ import React from "react";
 import "./style.css"
 import "../../colors/colors.css"
 
-import skillData from "../Skills/skillData";
+import video from "../../assets/videos/landing.mp4"
 
 export default function Hero() {
 
     return (
         <section className="hero">
+
+            {/* Video */}
+            <video 
+                autoPlay={true} 
+                muted={true}
+                loop={true}
+                id="hero-video" 
+            >
+                <source src={video}></source>
+            </video>
+
+
             <h2>Hi, my name is</h2>
             
             <h1>Gavin Loo.</h1>
