@@ -6,10 +6,6 @@ export default function Hero() {
 
     return (
         <section className="hero">
-
-            
-
-
             <h2>Hi, my name is</h2>
             
             <h1>Gavin Loo.</h1>

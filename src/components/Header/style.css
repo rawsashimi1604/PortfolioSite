@@ -1,9 +1,46 @@
+.video-wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+
 /* Video background */
 #hero-video {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+
     position: absolute;
+    top: 0;
+    left: 0;
     z-index: -1;
-    width: 100% !important;
-    height: auto !important;
+}
+
+/* Logos */
+.main-wrapper ul {
+    list-style-type: none;
+    display: inline-flex;
+
+    color: var(--color-50);
+    border-top: 1px solid var(--color-50);
+
+    font-size: 2rem;
+    padding-top: 15px;
+    gap: 30px;
+}
+
+.main-wrapper a {
+    color: var(--color-50);
+    transition: 0.5s;
+}
+
+.main-wrapper a:hover {
+    color: var(--color-500)
+}
+
+.main-wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 

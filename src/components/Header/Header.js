@@ -6,6 +6,9 @@ import Hero from "./Hero/Hero"
 
 import video from "../../assets/videos/landing.mp4"
 
+import { MdOutlineEmail } from "react-icons/md"
+import { BsLinkedin, BsGithub } from "react-icons/bs"
+
 export default function Header() {
     return (
         <header className="video-wrapper">
@@ -20,7 +23,24 @@ export default function Header() {
             </video>
 
             <Navbar/>
-            <Hero/>
+
+            <div className="main-wrapper">
+                <Hero/>
+                <ul>
+                    <li>
+                        <a href="#"><BsGithub/></a>
+                    </li>
+                    <li>
+                        <a href="#"><BsLinkedin/></a>
+                    </li>
+                    <li>
+                        <a href="#"><MdOutlineEmail/></a>
+                    </li>
+                </ul>
+            </div>
+            
+
+            
         </header>
     )
 }

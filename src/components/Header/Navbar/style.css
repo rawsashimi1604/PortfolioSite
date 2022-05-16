@@ -9,7 +9,7 @@ nav {
 
     background-color: var(--color-900);
 
-    box-shadow: 0px 10px 30px -10px var(--color-500);
+    box-shadow: 0px 8px 30px -8px var(--color-600);
 }
 
 nav ul {
@@ -52,8 +52,8 @@ nav .hoverable:hover {
 
 nav .nav-logo {
     border: 1px solid; 
-    font-size: 20px;
-    padding: 7px;
+    font-size: 25px;
+    padding: 7px 10px;
     text-shadow: 0px 0px 10px var(--color-100);
 }
 
