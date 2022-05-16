@@ -1,8 +1,8 @@
-/* 
-    Color palette: Blue Grey, https://compilezero.medium.com/dark-mode-ui-design-the-definitive-guide-part-1-color-53dcfaea5129
-*/
-
 :root {
+
+    /* 
+        Color palette: Blue Grey, https://compilezero.medium.com/dark-mode-ui-design-the-definitive-guide-part-1-color-53dcfaea5129
+    */
     --color-50: #F0F4F8;
     --color-100: #D9E2EC;
     --color-200: #BCCCDC;
@@ -20,5 +20,10 @@
     --color-confirm-400: #00875A;
     --color-confirm-500: #006644;
 
+    /* Breakpoints */
+    --bp-mobile: 412
+    --bp-tablet: 768
+    --bp-laptop: 1366
+    --bp-desktop: 1920
 }
 

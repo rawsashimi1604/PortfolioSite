@@ -1,14 +1,14 @@
 export default {
-    "languages": [
+    "Languages": [
         "Java", "Python", "C++", "C", "Javascript", "HTML", "CSS", "SASS"
     ], 
-    "frameworks": [
+    "Frameworks": [
         "Node.js", "React.js", "Express.js", "Selenium", "Pandas", "Qt"
     ],
-    "databases": [
+    "Databases": [
         "mySQL", "MongoDB"
     ], 
-    "others": [
+    "Others": [
         "Git/Github", "Postman", "JSON", "VSCode", "IntelliJ", "jQuery", "Bootstrap", "Heroku", "UML"
     ]
 }

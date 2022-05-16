@@ -1,5 +1,5 @@
 import React from "react";
-import "../../colors/colors.css"
+import "../../../colors/colors.css"
 import "./style.css"
 
 export default function Skill(props) {
@@ -10,7 +10,7 @@ export default function Skill(props) {
     })
 
     return (
-        <div className="hero-skill">
+        <div className="skill">
             <ul>
                 {skillOutputArray}
             </ul>
